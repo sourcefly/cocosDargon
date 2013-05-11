@@ -137,8 +137,18 @@
 		225A63711732A5F300F30ACB /* vec4.c in Sources */ = {isa = PBXBuildFile; fileRef = 225A63701732A5F300F30ACB /* vec4.c */; };
 		225A63761732A5F300F30ACB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 225A63751732A5F300F30ACB /* main.m */; };
 		225A63791732A5F300F30ACB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 225A63781732A5F300F30ACB /* AppDelegate.m */; };
-		225A637C1732A5F300F30ACB /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 225A637B1732A5F300F30ACB /* HelloWorldLayer.m */; };
-		225A637F1732A5F300F30ACB /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 225A637E1732A5F300F30ACB /* IntroLayer.m */; };
+		225A63A51732A65700F30ACB /* cloud-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 225A63991732A65700F30ACB /* cloud-hd.png */; };
+		225A63A61732A65700F30ACB /* cloud.png in Resources */ = {isa = PBXBuildFile; fileRef = 225A639A1732A65700F30ACB /* cloud.png */; };
+		225A63A71732A65700F30ACB /* gameobjects-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 225A639B1732A65700F30ACB /* gameobjects-hd.plist */; };
+		225A63A81732A65700F30ACB /* gameobjects-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 225A639C1732A65700F30ACB /* gameobjects-hd.png */; };
+		225A63A91732A65700F30ACB /* gameobjects.plist in Resources */ = {isa = PBXBuildFile; fileRef = 225A639D1732A65700F30ACB /* gameobjects.plist */; };
+		225A63AA1732A65700F30ACB /* gameobjects.png in Resources */ = {isa = PBXBuildFile; fileRef = 225A639E1732A65700F30ACB /* gameobjects.png */; };
+		225A63AB1732A65700F30ACB /* logo-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 225A639F1732A65700F30ACB /* logo-hd.png */; };
+		225A63AC1732A65700F30ACB /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 225A63A01732A65700F30ACB /* logo.png */; };
+		225A63AD1732A65700F30ACB /* play-button-down-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 225A63A11732A65700F30ACB /* play-button-down-hd.png */; };
+		225A63AE1732A65700F30ACB /* play-button-down.png in Resources */ = {isa = PBXBuildFile; fileRef = 225A63A21732A65700F30ACB /* play-button-down.png */; };
+		225A63AF1732A65700F30ACB /* play-button-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 225A63A31732A65700F30ACB /* play-button-hd.png */; };
+		225A63B01732A65700F30ACB /* play-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 225A63A41732A65700F30ACB /* play-button.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -416,10 +426,31 @@
 		225A63751732A5F300F30ACB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		225A63771732A5F300F30ACB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		225A63781732A5F300F30ACB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		225A637A1732A5F300F30ACB /* HelloWorldLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldLayer.h; sourceTree = "<group>"; };
-		225A637B1732A5F300F30ACB /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
-		225A637D1732A5F300F30ACB /* IntroLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
-		225A637E1732A5F300F30ACB /* IntroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
+		225A63991732A65700F30ACB /* cloud-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cloud-hd.png"; sourceTree = "<group>"; };
+		225A639A1732A65700F30ACB /* cloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloud.png; sourceTree = "<group>"; };
+		225A639B1732A65700F30ACB /* gameobjects-hd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "gameobjects-hd.plist"; sourceTree = "<group>"; };
+		225A639C1732A65700F30ACB /* gameobjects-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gameobjects-hd.png"; sourceTree = "<group>"; };
+		225A639D1732A65700F30ACB /* gameobjects.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = gameobjects.plist; sourceTree = "<group>"; };
+		225A639E1732A65700F30ACB /* gameobjects.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gameobjects.png; sourceTree = "<group>"; };
+		225A639F1732A65700F30ACB /* logo-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-hd.png"; sourceTree = "<group>"; };
+		225A63A01732A65700F30ACB /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		225A63A11732A65700F30ACB /* play-button-down-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play-button-down-hd.png"; sourceTree = "<group>"; };
+		225A63A21732A65700F30ACB /* play-button-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play-button-down.png"; sourceTree = "<group>"; };
+		225A63A31732A65700F30ACB /* play-button-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play-button-hd.png"; sourceTree = "<group>"; };
+		225A63A41732A65700F30ACB /* play-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play-button.png"; sourceTree = "<group>"; };
+		225A63B11732B06300F30ACB /* WelcomeLayer.ccbi */ = {isa = PBXFileReference; lastKnownFileType = file; path = WelcomeLayer.ccbi; sourceTree = "<group>"; };
+		225A640D1732B64600F30ACB /* CCBAnimationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCBAnimationManager.h; sourceTree = "<group>"; };
+		225A640E1732B64600F30ACB /* CCBAnimationManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCBAnimationManager.m; sourceTree = "<group>"; };
+		225A640F1732B64600F30ACB /* CCBKeyframe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCBKeyframe.h; sourceTree = "<group>"; };
+		225A64101732B64600F30ACB /* CCBKeyframe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCBKeyframe.m; sourceTree = "<group>"; };
+		225A64111732B64600F30ACB /* CCBReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCBReader.h; sourceTree = "<group>"; };
+		225A64121732B64600F30ACB /* CCBReader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCBReader.m; sourceTree = "<group>"; };
+		225A64131732B64600F30ACB /* CCBSequence.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCBSequence.h; sourceTree = "<group>"; };
+		225A64141732B64600F30ACB /* CCBsequence.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCBsequence.m; sourceTree = "<group>"; };
+		225A64151732B64600F30ACB /* CCBSequenceProperty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCBSequenceProperty.h; sourceTree = "<group>"; };
+		225A64161732B64600F30ACB /* CCBSequenceProperty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCBSequenceProperty.m; sourceTree = "<group>"; };
+		225A64171732B64600F30ACB /* CCNode+CCBRelativePositioning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CCNode+CCBRelativePositioning.h"; sourceTree = "<group>"; };
+		225A64181732B64600F30ACB /* CCNode+CCBRelativePositioning.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CCNode+CCBRelativePositioning.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -480,10 +511,6 @@
 			children = (
 				225A63771732A5F300F30ACB /* AppDelegate.h */,
 				225A63781732A5F300F30ACB /* AppDelegate.m */,
-				225A637A1732A5F300F30ACB /* HelloWorldLayer.h */,
-				225A637B1732A5F300F30ACB /* HelloWorldLayer.m */,
-				225A637D1732A5F300F30ACB /* IntroLayer.h */,
-				225A637E1732A5F300F30ACB /* IntroLayer.m */,
 				225A61EA1732A5F000F30ACB /* Resources */,
 				225A62021732A5F000F30ACB /* libs */,
 				225A63731732A5F300F30ACB /* Supporting Files */,
@@ -494,6 +521,9 @@
 		225A61EA1732A5F000F30ACB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				225A640C1732B64600F30ACB /* CCBReader */,
+				225A63B11732B06300F30ACB /* WelcomeLayer.ccbi */,
+				225A63981732A64A00F30ACB /* img */,
 				225A61EB1732A5F000F30ACB /* Default.png */,
 				225A61ED1732A5F000F30ACB /* Default@2x.png */,
 				225A61EF1732A5F000F30ACB /* Default-568h@2x.png */,
@@ -870,6 +900,44 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		225A63981732A64A00F30ACB /* img */ = {
+			isa = PBXGroup;
+			children = (
+				225A63991732A65700F30ACB /* cloud-hd.png */,
+				225A639A1732A65700F30ACB /* cloud.png */,
+				225A639B1732A65700F30ACB /* gameobjects-hd.plist */,
+				225A639C1732A65700F30ACB /* gameobjects-hd.png */,
+				225A639D1732A65700F30ACB /* gameobjects.plist */,
+				225A639E1732A65700F30ACB /* gameobjects.png */,
+				225A639F1732A65700F30ACB /* logo-hd.png */,
+				225A63A01732A65700F30ACB /* logo.png */,
+				225A63A11732A65700F30ACB /* play-button-down-hd.png */,
+				225A63A21732A65700F30ACB /* play-button-down.png */,
+				225A63A31732A65700F30ACB /* play-button-hd.png */,
+				225A63A41732A65700F30ACB /* play-button.png */,
+			);
+			name = img;
+			sourceTree = "<group>";
+		};
+		225A640C1732B64600F30ACB /* CCBReader */ = {
+			isa = PBXGroup;
+			children = (
+				225A640D1732B64600F30ACB /* CCBAnimationManager.h */,
+				225A640E1732B64600F30ACB /* CCBAnimationManager.m */,
+				225A640F1732B64600F30ACB /* CCBKeyframe.h */,
+				225A64101732B64600F30ACB /* CCBKeyframe.m */,
+				225A64111732B64600F30ACB /* CCBReader.h */,
+				225A64121732B64600F30ACB /* CCBReader.m */,
+				225A64131732B64600F30ACB /* CCBSequence.h */,
+				225A64141732B64600F30ACB /* CCBsequence.m */,
+				225A64151732B64600F30ACB /* CCBSequenceProperty.h */,
+				225A64161732B64600F30ACB /* CCBSequenceProperty.m */,
+				225A64171732B64600F30ACB /* CCNode+CCBRelativePositioning.h */,
+				225A64181732B64600F30ACB /* CCNode+CCBRelativePositioning.m */,
+			);
+			path = CCBReader;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -933,6 +1001,18 @@
 				225A61FE1732A5F000F30ACB /* Icon@2x.png in Resources */,
 				225A62011732A5F000F30ACB /* iTunesArtwork in Resources */,
 				225A63571732A5F200F30ACB /* ChangeLog in Resources */,
+				225A63A51732A65700F30ACB /* cloud-hd.png in Resources */,
+				225A63A61732A65700F30ACB /* cloud.png in Resources */,
+				225A63A71732A65700F30ACB /* gameobjects-hd.plist in Resources */,
+				225A63A81732A65700F30ACB /* gameobjects-hd.png in Resources */,
+				225A63A91732A65700F30ACB /* gameobjects.plist in Resources */,
+				225A63AA1732A65700F30ACB /* gameobjects.png in Resources */,
+				225A63AB1732A65700F30ACB /* logo-hd.png in Resources */,
+				225A63AC1732A65700F30ACB /* logo.png in Resources */,
+				225A63AD1732A65700F30ACB /* play-button-down-hd.png in Resources */,
+				225A63AE1732A65700F30ACB /* play-button-down.png in Resources */,
+				225A63AF1732A65700F30ACB /* play-button-hd.png in Resources */,
+				225A63B01732A65700F30ACB /* play-button.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1052,8 +1132,6 @@
 				225A63711732A5F300F30ACB /* vec4.c in Sources */,
 				225A63761732A5F300F30ACB /* main.m in Sources */,
 				225A63791732A5F300F30ACB /* AppDelegate.m in Sources */,
-				225A637C1732A5F300F30ACB /* HelloWorldLayer.m in Sources */,
-				225A637F1732A5F300F30ACB /* IntroLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
